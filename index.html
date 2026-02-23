@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIDHA TAHIR | Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===== HEADER / HERO ===== -->
+    <header class="hero">
+        <nav class="navbar">
+            <h1 class="logo">RIDHA TAHIR</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#calculator">Calculator</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <img src="rado.jpeg" alt="RIDHA TAHIR" class="profile-img">
+            <h2>RIDHA TAHIR</h2>
+            <h3>Frontend Developer</h3>
+            <p>Building modern, responsive, and user-friendly web interfaces.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am RIDHA TAHIR, a motivated frontend development student with a strong interest in building clean,
+            responsive, and user-focused websites. I am currently studying Computer Science and developing my skills
+            in modern web technologies.
+        </p>
+
+        <div class="about-info">
+            <div><strong>Program:</strong> Year II – Computer Science (FEB Day Program)</div>
+            <div><strong>Institution:</strong> INES-Ruhengeri</div>
+            <div><strong>Career Goal:</strong> Professional Frontend Developer & UI Engineer</div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">GitHub</div>
+            <div class="skill-card">Bootstrap</div>
+            <div class="skill-card">Responsive Design</div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>Student GPA Calculator</h3>
+                <p><strong>Problem:</strong> Students struggle to calculate GPA manually.</p>
+                <p><strong>Solution:</strong> Automated GPA calculation system.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p><strong>Problem:</strong> No professional online presence.</p>
+                <p><strong>Solution:</strong> Responsive personal portfolio.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Loan Repayment Calculator</h3>
+                <p><strong>Problem:</strong> Difficult to estimate loan payments.</p>
+                <p><strong>Solution:</strong> Monthly loan payment calculator.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== CALCULATOR ===== -->
+    <section id="calculator" class="section">
+        <h2>Student GPA Calculator</h2>
+
+        <div class="calculator-box">
+            <form id="gpaForm">
+                <input type="number" placeholder="Course 1 Mark" class="mark" required>
+                <input type="number" placeholder="Course 2 Mark" class="mark" required>
+                <input type="number" placeholder="Course 3 Mark" class="mark" required>
+                <input type="number" placeholder="Course 4 Mark" class="mark" required>
+
+                <button type="submit" class="btn">Calculate GPA</button>
+            </form>
+
+            <div class="result">
+                <p id="gpaResult">GPA: --</p>
+                <p id="classResult">Classification: --</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CV ===== -->
+    <section class="section">
+        <h2>My CV</h2>
+        <p>This is my professional CV showing my education, skills, and projects.</p>
+        <a href="CV.html" download class="btn">Download My CV</a>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> ridhatahir@example.com</p>
+            <p><strong>Phone:</strong> +250 795 616 002</p>
+            <p><strong>GitHub:</strong> github.com/ridhatahir</p>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© <span id="year"></span> RIDHA TAHIR | Frontend Developer</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
